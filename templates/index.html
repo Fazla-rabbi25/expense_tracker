@@ -1,9 +1,11 @@
 {% extends "base.html" %}
-<link rel="stylesheet" href="{{ url_for('static', filename='style_index.css') }}">
 
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style_index.css') }}">
+{% endblock %}
 {% block content %}
-<h2 style="text-align: center;">All Expenses</h2>
-<table border="1" style="margin:auto; width:50%; ">
+<h2>All Expenses</h2>
+<table border="1">
     <thead>
         <tr>
             <th>ID</th>

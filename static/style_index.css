@@ -2,7 +2,15 @@ h2{
     text-align: center;
 }
 
+table{
+    margin: auto;
+    width: 50%;
+}
 table tr{
     justify-content: space-around;
     align-items: center;
+    padding: 20px;
+}
+th{
+    padding: auto;
 }
